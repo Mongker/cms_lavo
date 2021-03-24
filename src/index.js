@@ -4,7 +4,7 @@
  * @author Mongker
  * @email: levanmong.dola.99@gmail.com
  * @phone: +84373668113
- * @slogan: "Mọi thứ đều bắt đầu từ việc nhỏ, những ước mơ phải lớn"
+ * @slogan: "Mọi thứ đều bắt đầu từ việc nhỏ, nhưng khát vọng phải lớn"
  */
 
 import React from 'react';

@@ -8,8 +8,21 @@
  */
 
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+
+// components
+import Header from 'src/components/Header';
+import Content from 'src/components/Content';
+import Footer from 'src/components/Footer';
+
 function App() {
-    return <div>Mong</div>;
+    return (
+        <React.Fragment>
+            <Header />
+            <Content />
+            <Footer />
+        </React.Fragment>
+    );
 }
 
 export default React.memo(App);

@@ -2,160 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f01e21-eb6c-45d8-85c4-42407155b169" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cms_lavo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mybook.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/ListPlan.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/styles/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/styles/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/actionTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/adminAction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/catalogAction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/productAction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/sliderAction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/userAction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/admin/delete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/admin/getAdminID.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/admin/getList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/admin/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/admin/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/admin/put.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/cart/delete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/cart/getList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/cart/getListUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/cart/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/cart/put.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/catalog/delete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/catalog/getList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/catalog/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/catalog/put.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/product/delete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/product/getList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/product/getListIdCatalog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/product/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/product/put.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/slider/delete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/slider/getList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/slider/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/slider/put.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/user/delete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/user/getAdminID.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/user/getList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/user/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/user/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/user/put.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/AdminContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/Content.View.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/AdminContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/AdminView.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/Modal/AddAdmin.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/Modal/AddAdminContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/Modal/EditAdmin.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/Modal/EditAdminContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/Modal/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/Tab/TabAdmin.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/Tab/TabAdminContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/Table/TableAdmin.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/Table/TableAdminContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/admin/Table/styles/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/catalog/CatalogView.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/catalog/Content/CatalogContent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/catalog/Content/CatalogContentContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/catalog/TreeCatalog/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/catalog/styles/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/home/Home.View.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/login/LoginAdmin.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/login/LoginAdminContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/login/Reload.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/login/ReloadContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/products/TableProduct.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/products/TableProductContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/slider/Slider.View.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/slider/SliderContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/slider/Table/ModalAdd.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/slider/Table/ModalEdit.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/slider/Table/TableSlider.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/slider/Table/TableSliderContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/slider/customHooks/SelectIndex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/slider/customHooks/useFile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/table/EditTable.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/content/table/Table.View.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/footer/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/header/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/menu/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/styles/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/demo/todo/todoApp.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/UserContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/content.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/detailproduct.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/footer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/author-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/author-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/author-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/author-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/author-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/avenir.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/biography.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/book.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/camera (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/camera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/credit-card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/delivery.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/ferbuary-book.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/fooddrink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/guarantee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/health.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/help.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/logo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/phone-call.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/pinterest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/product-book.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/release.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/romance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/shopping-cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/website-cung-he-thong-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/img/youtube.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/style/background-pink.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/style/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/util/checkLoginAdmin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/util/getBase64.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/util/getIdRandom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/util/keyMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/admin/admin/adminReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/admin/admin/useAdminReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/admin/cart/cartReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/admin/catalog/catalogReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/admin/product/productReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/admin/slider/sliderReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/admin/user/loginUserReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sagas/adminSaga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sagas/cartSaga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sagas/catalogSaga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sagas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sagas/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sagas/productSaga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sagas/sliderSaga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sagas/userSaga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -178,18 +47,32 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\MongLV\cms_lavo\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\sukha\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.7148.54\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MongLV\cms_lavo\src\components\Header" />
+      <recent name="C:\MongLV\cms_lavo\src\components\Footer" />
+      <recent name="C:\MongLV\cms_lavo\src\components\Content" />
+      <recent name="C:\MongLV\cms_lavo\src\components" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c4f01e21-eb6c-45d8-85c4-42407155b169" name="Default Changelist" comment="" />
@@ -200,7 +83,17 @@
       <workItem from="1616577501158" duration="240000" />
       <workItem from="1616577769676" duration="31000" />
       <workItem from="1616577807569" duration="776000" />
+      <workItem from="1616606930692" duration="464000" />
+      <workItem from="1616607444374" duration="8611000" />
     </task>
+    <task id="LOCAL-00001" summary="MongLV: thêm một số text markdown về quy chuẩn trong code">
+      <created>1616610707367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616610707367</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,5 +113,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="MongLV: thêm một số text markdown về quy chuẩn trong code" />
+    <option name="LAST_COMMIT_MESSAGE" value="MongLV: thêm một số text markdown về quy chuẩn trong code" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
