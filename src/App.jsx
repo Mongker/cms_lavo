@@ -7,15 +7,9 @@
  * @university: UTT (Đại học Công Nghệ Giao Thông Vận Tải)
  */
 
-import React from "react";
-
-// components
-
-
+import React from 'react';
 function App() {
-    return (
-        <div>Mong</div>
-    );
+    return <div>Mong</div>;
 }
 
 export default React.memo(App);
