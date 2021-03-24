@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f01e21-eb6c-45d8-85c4-42407155b169" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Content/ListPlan.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/styles/image/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/styles/index.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +75,7 @@
       <workItem from="1616577769676" duration="31000" />
       <workItem from="1616577807569" duration="776000" />
       <workItem from="1616606930692" duration="464000" />
-      <workItem from="1616607444374" duration="8611000" />
+      <workItem from="1616607444374" duration="8662000" />
     </task>
     <task id="LOCAL-00001" summary="MongLV: thêm một số text markdown về quy chuẩn trong code">
       <created>1616610707367</created>
@@ -93,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616610707367</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MongLV: Thêm giao diện phần header">
+      <created>1616616104551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616616104551</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +112,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="MongLV: thêm một số text markdown về quy chuẩn trong code" />
-    <option name="LAST_COMMIT_MESSAGE" value="MongLV: thêm một số text markdown về quy chuẩn trong code" />
+    <MESSAGE value="MongLV: Thêm giao diện phần header" />
+    <option name="LAST_COMMIT_MESSAGE" value="MongLV: Thêm giao diện phần header" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

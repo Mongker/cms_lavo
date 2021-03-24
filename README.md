@@ -2,7 +2,7 @@
 ![](./index.jpg)
 ## author: 
 1. [Lê Văn Mong](https://www.facebook.com/people/L%C3%AA-V%C4%83n-Mong/100011742550163)
-####Một số thư viện được sử dụng chủ đạo trong dữ án:
+#### Một số thư viện được sử dụng chủ đạo trong dữ án:
 * Lưu trữ dữ liệu:
     * firebase.
 * Xây dựng UX website:
