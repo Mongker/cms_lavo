@@ -1,8 +1,17 @@
+/**
+ * Copyright 2020 present, Lê Văn Mong.
+ * All rights reserved.
+ * @author Mongker
+ * @email: levanmong.dola.99@gmail.com
+ * @phone: +84373668113
+ * @slogan: "Mọi thứ đều bắt đầu từ việc nhỏ, những ước mơ phải lớn"
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { compose } from 'redux';
+// import { compose } from 'redux';
 
 // UI ANT DESIGN
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
