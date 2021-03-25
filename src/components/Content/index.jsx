@@ -12,15 +12,13 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 // component
-import ListPlan from 'src/components/Content/ListPlan';
+import ListPlan from 'src/components/Content/ListPlans';
 
 function Content() {
     return (
-        <React.Fragment>
-            <Switch>
-                <Route path={'/'} exact component={ListPlan} />
-            </Switch>
-        </React.Fragment>
+        <Switch>
+            <Route path={'/'} exact component={ListPlan} />
+        </Switch>
     );
 }
 

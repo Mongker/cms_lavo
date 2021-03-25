@@ -1,5 +1,6 @@
 .header {
     position: fixed;
+    z-index: 100;
     background-color: whitesmoke;
 
     width: 100%;
@@ -9,6 +10,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
 .logo {
     flex: 1;

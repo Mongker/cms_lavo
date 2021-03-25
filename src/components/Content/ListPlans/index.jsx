@@ -10,8 +10,21 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 
+// components
+import Plans from 'src/components/Content/ListPlans/Plans';
+
+// styles
+import styles from './styles/index.module.css';
+
 function ListPlan() {
-    return <div>Giao dien</div>;
+    const renderPlans = (n = 10) => {
+        const array = [];
+        for (let i = 0; i <= n; i++) {
+            array.push(<Plans />);
+        }
+        return array;
+    };
+    return <div className={styles.controller}>{renderPlans(20).map((item) => item)}</div>;
 }
 
 ListPlan.propTypes = {};
