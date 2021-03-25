@@ -27,4 +27,4 @@ yarn-error.log*
 
 # Bỏ file cấu hình của ide VD: Webstorm, visual studio code, ...
 .vscode
-# .idea
+.idea
