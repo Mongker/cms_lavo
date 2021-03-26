@@ -10,7 +10,7 @@
 import React from 'react';
 import classNames from 'classnames';
 // import PropTypes from 'prop-types';
-import { Steps, Button, message } from 'antd';
+import { Steps } from 'antd';
 
 // styles
 import styles from '../styles/index.module.css';

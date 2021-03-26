@@ -10,7 +10,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import { Avatar, Badge } from 'antd';
-import { MessageOutlined, BellOutlined, UserOutlined, SearchOutlined } from '@ant-design/icons';
+import { MessageOutlined, BellOutlined, UserOutlined } from '@ant-design/icons';
 
 // style
 import styles from './styles/index.module.css';
@@ -20,7 +20,7 @@ function Header() {
     return (
         <div className={styles.header}>
             <div className={styles.logo}>
-                <img src={logo} style={{ width: 95, height: 30, marginLeft: '10%' }} />
+                <img src={logo} style={{ width: 95, height: 30, marginLeft: '10%' }} alt='logo' />
             </div>
             <div className={styles.search}>
                 <input className={styles.search_input} type='text' placeholder='Tìm kiếm sản phẩm' />
