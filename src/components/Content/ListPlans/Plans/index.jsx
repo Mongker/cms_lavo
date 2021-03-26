@@ -10,11 +10,22 @@
 import React from 'react';
 import classNames from 'classnames';
 // import PropTypes from 'prop-types';
-import { Steps } from 'antd';
+import { Progress, Steps } from 'antd';
 
 // styles
 import styles from '../styles/index.module.css';
+
+// icon
 import product from '../styles/image/product.jpeg';
+import time_start from 'src/image/start_time.png';
+import time_end from 'src/image/clock.png';
+import group_user from 'src/image/group_user.png';
+import group_user_root from 'src/image/decision-making.png';
+import avatar from 'src/image/profile-user.png';
+import loading from 'src/image/loading.png';
+import check from 'src/image/check.png';
+import comment from 'src/image/comment.png';
+import compliant from 'src/image/compliant_2.png';
 
 // const
 const { Step } = Steps;
@@ -31,7 +42,7 @@ function Plans() {
                 <div className={styles.title__product}>Dầu gội đầu</div>
                 <div className={styles.certificate}>
                     <img className={styles.certificate__logo} src={'https://en.pimg.jp/060/025/814/1/60025814.jpg'} alt={'iOS'} />
-                    <img className={styles.certificate__logo} src={'https://lh3.googleusercontent.com/proxy/06zsfRGxRWiGWvcmuC4gBhmPwVU0EE-CcGkAp64P7kmawP4WXj1A1clgequmMzQwAiimNz9ZC4SmO4RotnNnq4orgyqqGjEM0p2n6Of7FZ6zKDW_sfhHctMUnQ'} alt={'iOS'} />
+                    <img className={styles.certificate__logo} src={'https://en.pimg.jp/060/025/814/1/60025814.jpg'} alt={'iOS'} />
                 </div>
             </div>
             <div className={styles.controller__plans__2}>
@@ -43,24 +54,97 @@ function Plans() {
                     <Step title='Pack' />
                     <Step title='Stock' />
                 </Steps>
-                {/*<div className='steps-content'>{steps[current].content}</div>*/}
-                {/*<div className='steps-action'>*/}
-                {/*    {current < steps.length - 1 && (*/}
-                {/*        <Button type='primary' onClick={() => next()}>*/}
-                {/*            Next*/}
-                {/*        </Button>*/}
-                {/*    )}*/}
-                {/*    {current === steps.length - 1 && (*/}
-                {/*        <Button type='primary' onClick={() => message.success('Processing complete!')}>*/}
-                {/*            Done*/}
-                {/*        </Button>*/}
-                {/*    )}*/}
-                {/*    {current > 0 && (*/}
-                {/*        <Button style={{ margin: '0 8px' }} onClick={() => prev()}>*/}
-                {/*            Previous*/}
-                {/*        </Button>*/}
-                {/*    )}*/}
-                {/*</div>*/}
+                <div className={classNames('row', styles.plan__controller)}>
+                    <div className={classNames('row', 'center')}>
+                        <div>
+                            <img alt={'icon start'} src={time_start} className={styles.icon__time} />
+                        </div>
+                        <div className={classNames('row', 'center', 'color-green')}>
+                            <div>Start: &nbsp;</div>
+                            <div>01/02/2021 08:30</div>
+                        </div>
+                    </div>
+                    <div className={classNames('row', 'center')}>
+                        <div>
+                            <img alt={'icon start'} src={time_end} className={styles.icon__time} />
+                        </div>
+                        <div className={classNames('row', 'center', 'color-red')}>
+                            <div>End: &nbsp;</div>
+                            <div>01/02/2021 10:30</div>
+                        </div>
+                    </div>
+                </div>
+                <div className={classNames('row', styles.plan__controller)}>
+                    <div className={classNames('row', 'center')}>
+                        <div>
+                            <img alt={'nhân viên'} src={group_user} className={styles.icon__group_user} />
+                        </div>
+                        <div className={classNames('row', 'center')}>
+                            {[1, 2, 3].map((item) => (
+                                <div className={classNames('row', 'center', styles.tag_user)}>
+                                    <img alt={'avatar'} src={avatar} className={styles.icon__avatar} />
+                                    <div>User {item}</div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    <div className={classNames('row', 'center')}>
+                        <div>
+                            <img alt={'nhân viên kiểm tra'} src={group_user_root} className={styles.icon__group_user} />
+                        </div>
+                        <div className={classNames('row', 'center')}>
+                            {[1, 2, 3].map((item) => (
+                                <div className={classNames('row', 'center', styles.tag_user)}>
+                                    <img alt={'avatar'} src={avatar} className={styles.icon__avatar} />
+                                    <div>User {item}</div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+                <div className={classNames('row', styles.plan__controller)}>
+                    <div className={classNames('row', 'center')}>
+                        <div>
+                            <img alt={'loading'} src={loading} className={styles.icon__avatar} />
+                        </div>
+                        <div className={classNames('row', 'center', 'color-red', styles.tag_user)}>
+                            <div>Còn: &nbsp;</div>
+                            <div>3000 pcs</div>
+                        </div>
+                    </div>
+                    <div className={classNames('row', 'center')}>
+                        <div>
+                            <img alt={'check'} src={check} className={styles.icon__avatar} />
+                        </div>
+                        <div className={classNames('row', 'center', 'color-green', styles.tag_user)}>
+                            <div>Hoàn thành: &nbsp;</div>
+                            <div>3000 pcs</div>
+                        </div>
+                    </div>
+                </div>
+                <div className={classNames('row', 'center')} style={{ backgroundColor: 'white', borderRadius: 5 }}>
+                    <Progress percent={70} />
+                </div>
+                <div className={classNames('row', styles.plan__controller)}>
+                    <div className={classNames('row', 'center')} style={{ cursor: 'pointer' }}>
+                        <div>
+                            <img alt={'comment'} src={comment} style={{ width: 20, height: 20 }} />
+                        </div>
+                        <div className={classNames('row', 'center', styles.tag_user)}>
+                            <div>Comment: &nbsp;</div>
+                            <div>6</div>
+                        </div>
+                    </div>
+                    <div className={classNames('row', 'center')} style={{ cursor: 'pointer' }}>
+                        <div>
+                            <img alt={'check'} src={compliant} style={{ width: 20, height: 20 }} />
+                        </div>
+                        <div className={classNames('row', 'center', styles.tag_user)}>
+                            <div>Quality: &nbsp;</div>
+                            <div>10</div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className={styles.controller__plans__3}>
                 <div className={classNames(styles.order, styles.status)}>
