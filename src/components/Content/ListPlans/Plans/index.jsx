@@ -31,7 +31,7 @@ function Plans() {
                 <div className={styles.title__product}>Dầu gội đầu</div>
                 <div className={styles.certificate}>
                     <img className={styles.certificate__logo} src={'https://en.pimg.jp/060/025/814/1/60025814.jpg'} alt={'iOS'} />
-                    <img className={styles.certificate__logo} src={'https://lh3.googleusercontent.com/proxy/O_fA8wUPtLXTBdFliZYN76HLvcBZF6NYSLSN-WAA3c7S6ftmNfWYuwWV48D_Sd4omfhA8QOGLdEJaX11p1JoeEytkJI5Qrf5qII6MYGuZqgvIiSDYAufH2Asbg'} alt={'iOS'} />
+                    <img className={styles.certificate__logo} src={'https://lh3.googleusercontent.com/proxy/06zsfRGxRWiGWvcmuC4gBhmPwVU0EE-CcGkAp64P7kmawP4WXj1A1clgequmMzQwAiimNz9ZC4SmO4RotnNnq4orgyqqGjEM0p2n6Of7FZ6zKDW_sfhHctMUnQ'} alt={'iOS'} />
                 </div>
             </div>
             <div className={styles.controller__plans__2}>
